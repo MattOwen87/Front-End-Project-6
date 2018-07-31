@@ -1,0 +1,33 @@
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 60px;
+  font-size: 3em;
+  line-height: 60px;
+  font-family: 'Playfair Display', serif;
+}
+
+.container {
+  margin: 10px;
+
+}
+.videoWrapper {
+  display: block;
+  margin: 0 auto;
+
+
+}
+
+
+
+.textWrapper {
+  text-align: center;
+  margin: 100px;
+
+
+}
