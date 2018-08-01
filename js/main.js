@@ -1,17 +1,14 @@
 
 
 
-
-
-
 ////////////////////////////////
 // HIGHLIGHT TEXT
 ////////////////////////////////
 
 
-const video = document.getElementsByTagName('video');
-const vidText = document.querySelectorAll('span');
-
+const video = document.getElementsByTagName('video')[0];
+const vidText = document.querySelectorAll('p span');
+const textDiv = document.querySelector('.textWrapper');
 
 video.addEventListener('timeupdate', () => {
   for (let i = 0; i < vidText.length; i++) {
@@ -22,4 +19,13 @@ video.addEventListener('timeupdate', () => {
     }
   }
 
+});
+
+
+////////////////////////////////
+// TEXT SELECT VIDEO FUNCTION
+////////////////////////////////
+
+textDiv.addEventListener('click', (event) => {
+  video.currentTime = event.target.getAttribute('data-start');
 });

@@ -208,6 +208,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
     position: absolute;
     width: 100%;
     z-index: 3;
+    
 }
 
 .mejs__controls:not([style*='display: none']) {
