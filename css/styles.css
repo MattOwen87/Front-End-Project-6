@@ -37,7 +37,7 @@ span {
 }
 
 .mejs__controls {
-  color: orange;
+  background-color: orange !important; /* ADDED !IMPORTANT TO OVERRIDE mediaelementplayer.CSS */
 }
 
 
@@ -60,7 +60,7 @@ p {
 .videoWrapper {
   margin: 0 auto;
   margin-top: 10px;
-  width: 60% !important;
+  width: 60% !important; /* ADDED !IMPORTANT TO FORCE VIDEO WIDTH CHANGE */
 }
 
 
